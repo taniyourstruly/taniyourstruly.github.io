@@ -1,3 +1,49 @@
+<DOCTYPE! html>
+
+<html>
+
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli|Raleway|Quicksand|Satisfy">
+		<script src="script.js" type="text/javascript"></script>
+	<style>
+			h1 {
+  				font-family: Muli;
+			}
+			h2 {
+  				font-family: Raleway;
+			}
+			h3 {
+  				font-family: Satisfy;
+			}
+			body {
+				font-family: Quicksand;
+			}
+		
+			/* Container holding the image and the text */
+			.container {
+  			position: relative;
+  			text-align: center;
+  			color: white;
+			}
+
+			/* Centered text */
+			.centered {
+  			position: absolute;
+  			top: 25%;
+  			left: 50%;
+  			//transform: translate(-50%, -50%);
+			}
+		
+	</style>
+	</head>
+	
+	<body>
+	
 	<h3 style="text-align: center;">Tania Pham</h3>
-  <h3 style="text-align: center;"><a href="https://www.github.com/taniyourstruly">Github</a></h3>
+  	<h3 style="text-align: center;"><a href="https://www.github.com/taniyourstruly">Github</a></h3>
 	<h3 style="text-align: center;">tania.pham01@gmail.com</h3>
+	
+	</body>
+</html>
