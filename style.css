@@ -1,50 +1,91 @@
-.arrow{
+
+
+  /* Container holding the image and the text */
+    .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+    /* Centered text */
+    .centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    }
+
+    .first {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-}
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #06A8FF;
-    border-right: 5px solid #06A8FF;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
-}
-.arrow span:nth-child(2){
-    animation-delay: -0.2s;
-}
-.arrow span:nth-child(3){
-    animation-delay: -0.4s;
-}
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
+    width: 400px;
+    height: 400px;
+    margin-top: -200px; /* Half the height */
+    margin-left: -200px; /* Half the width */
+    filter:drop-shadow(5px 5px 5px gray);
     }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
-}
 
-  /* Container holding the image and the text */
-			.container {
-  			position: relative;
-  			text-align: center;
-  			color: white;
-			}
+    .second {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -125px; /* Half the height */
+    margin-left: -100px; /* Half the width */ 
+    }
 
-			/* Centered text */
-			.centered {
-  			position: absolute;
-  			top: 25%;
-  			left: 50%;
-  			//transform: translate(-50%, -50%);
-			}
+    .start {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    }
+
+    .button {
+    background-color: #000000;
+    border: none;
+    color: #fefadc;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    /*move button*/
+    height: 25px;
+    margin-top: 15px;
+    position: relative;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+    .button:hover {
+    background-color: #494949; /* Gray */
+    color: white;
+    }
+
+    h1 {
+    font-family: Raleway;
+    }
+
+    h2 {
+    font-family: Satisfy;
+    }
+    
+    h3 {
+    font-family: Quicksand;
+    }
+            
+    body {
+    font-family: Muli;
+    }
