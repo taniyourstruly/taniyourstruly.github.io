@@ -20,10 +20,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    height: 400px;
-    margin-top: -200px; /* Half the height */
-    margin-left: -200px; /* Half the width */
+    width: 1080px;
+    height: 540px;
+    margin-top: -270px; /* Half the height */
+    margin-left: -540px; /* Half the width */
     filter:drop-shadow(5px 5px 5px gray);
     }
 
@@ -31,10 +31,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 200px;
-    height: 200px;
-    margin-top: -125px; /* Half the height */
-    margin-left: -100px; /* Half the width */ 
+    width: 540px;
+    height: 270px;
+    margin-top: -135px; /* Half the height */
+    margin-left: -270px; /* Half the width */ 
     }
 
     .start {
@@ -63,7 +63,7 @@
     margin-top: 15px;
     position: relative;
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
