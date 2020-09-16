@@ -1,0 +1,42 @@
+.header {
+	text-align: left;
+	margin-left: 150px;
+	margin-top: 100px;
+	float:left;
+}
+
+.picture {
+	width: 100px;
+    height: 100px;
+    margin-top: -25px; /* Half the height */
+    margin-left: 25px; /* Half the width */
+}
+
+.cs {
+	text-align: center;
+   	
+}
+
+h1 {
+   font-family: Roboto;
+	color:#ffcadb;
+	font-size:30px;
+}
+
+h2 {
+	font-family: Satisfy;
+}
+    
+h3 {
+	font-family: Mali;
+}
+            
+body {
+	text-align: center;
+	font-family: Quicksand;
+}
+
+p {
+	text-align: center;
+	font-size: 14px;
+}

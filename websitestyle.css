@@ -1,0 +1,88 @@
+.header {
+	text-align: left;
+	margin-left: 150px;
+	margin-top: 100px;
+	float:left;
+}
+
+.picture {
+	width: 100px;
+    height: 100px;
+    margin-top: -25px; /* Half the height */
+    margin-left: 25px; /* Half the width */
+}
+
+.icon{
+	text-align: right;
+	margin-right: 150px;
+	margin-top: 100px;
+	float:right;
+	font-size: 12px;
+}
+
+.links {
+	text-align: right;
+	margin-right: 150px;
+	margin-top: 100px;
+	float:right;
+	font-size: 30px;
+	text-decoration: none;
+	color:#ffe4e1;
+}
+
+.me {
+	margin-left: 176px;
+	margin-top: 110px;
+	float:left;
+	width: 420px;
+    height: 559px;
+    position: absolute;
+}
+
+.about {
+	margin-right:100px;
+	margin-top: 150px;
+	font-size: 10px;
+	float:right;
+	margin:100px;
+	position: relative;
+}
+
+.instagram{
+	position: absolute;
+	}
+
+.footer{
+	background: gray;
+  	color: white;
+  	text-align: center;
+  	bottom: 0px;
+  	left:0px;
+  	padding-top:20px;
+  	height:20px;
+  	width:100%;
+}
+
+
+
+h1 {
+   font-family: Roboto;
+	color:#ffcadb;
+	font-size:30px;
+}
+
+h2 {
+	font-family: Satisfy;
+}
+    
+h3 {
+	font-family: Mali;
+}
+            
+body {
+	font-family: Quicksand;
+}
+
+p {
+	font-size: 14px;
+}
